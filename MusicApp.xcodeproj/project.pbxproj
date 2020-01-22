@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		525E8D5823D8D55B0039212F /* StoredCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E8D5723D8D55B0039212F /* StoredCell.swift */; };
+		525E8D5A23D8D5770039212F /* SearchViewStoredModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E8D5923D8D5770039212F /* SearchViewStoredModel.swift */; };
 		5287AA9523D36685008DCBC8 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5287AA9423D36685008DCBC8 /* SDWebImage */; };
 		5287AA9823D3679E008DCBC8 /* FeatureList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287AA9723D3679E008DCBC8 /* FeatureList.swift */; };
 		5287AA9A23D367A9008DCBC8 /* FeatureList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5287AA9923D367A9008DCBC8 /* FeatureList.plist */; };
@@ -15,18 +17,19 @@
 		5287AAA023D38165008DCBC8 /* TrackDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287AA9F23D38164008DCBC8 /* TrackDetailView.swift */; };
 		5287AAA223D4B188008DCBC8 /* CMTime + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287AAA123D4B188008DCBC8 /* CMTime + Extension.swift */; };
 		5287AAA423D4C578008DCBC8 /* Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287AAA323D4C578008DCBC8 /* Nib.swift */; };
+		52D1470223D771A6001ADCAF /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D1470123D771A6001ADCAF /* Library.swift */; };
+		52D1470423D795B6001ADCAF /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D1470323D795B6001ADCAF /* UserDefaults.swift */; };
+		52D1470723D79D3E001ADCAF /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 52D1470623D79D3E001ADCAF /* URLImage */; };
 		52FD961D23D1E45100931739 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD961C23D1E45100931739 /* AppDelegate.swift */; };
 		52FD961F23D1E45100931739 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD961E23D1E45100931739 /* SceneDelegate.swift */; };
 		52FD962623D1E45300931739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FD962523D1E45300931739 /* Assets.xcassets */; };
 		52FD963323D1E7DD00931739 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD963223D1E7DD00931739 /* MainTabBarController.swift */; };
 		52FD963523D1E90100931739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FD963423D1E90100931739 /* LaunchScreen.storyboard */; };
-		52FD963723D1FB6100931739 /* SearchMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD963623D1FB6100931739 /* SearchMusicViewController.swift */; };
 		52FD963A23D1FE2400931739 /* TrackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD963923D1FE2400931739 /* TrackModel.swift */; };
 		52FD963D23D2051600931739 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 52FD963C23D2051600931739 /* Alamofire */; };
 		52FD963F23D208CE00931739 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD963E23D208CE00931739 /* SearchResponse.swift */; };
 		52FD964223D2266900931739 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD964123D2266900931739 /* NetworkService.swift */; };
 		52FD964A23D22DB400931739 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD964423D22DB400931739 /* SearchPresenter.swift */; };
-		52FD964B23D22DB400931739 /* SearchWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD964523D22DB400931739 /* SearchWorker.swift */; };
 		52FD964C23D22DB400931739 /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD964623D22DB400931739 /* SearchRouter.swift */; };
 		52FD964D23D22DB400931739 /* SearchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD964723D22DB400931739 /* SearchModels.swift */; };
 		52FD964E23D22DB400931739 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD964823D22DB400931739 /* SearchViewController.swift */; };
@@ -38,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		525E8D5723D8D55B0039212F /* StoredCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredCell.swift; sourceTree = "<group>"; };
+		525E8D5923D8D5770039212F /* SearchViewStoredModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewStoredModel.swift; sourceTree = "<group>"; };
 		5287AA9723D3679E008DCBC8 /* FeatureList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureList.swift; sourceTree = "<group>"; };
 		5287AA9923D367A9008DCBC8 /* FeatureList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FeatureList.plist; sourceTree = "<group>"; };
 		5287AA9B23D36C53008DCBC8 /* SearchFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFooterView.swift; sourceTree = "<group>"; };
@@ -45,6 +50,8 @@
 		5287AA9F23D38164008DCBC8 /* TrackDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailView.swift; sourceTree = "<group>"; };
 		5287AAA123D4B188008DCBC8 /* CMTime + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMTime + Extension.swift"; sourceTree = "<group>"; };
 		5287AAA323D4C578008DCBC8 /* Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nib.swift; sourceTree = "<group>"; };
+		52D1470123D771A6001ADCAF /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		52D1470323D795B6001ADCAF /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		52FD961923D1E45100931739 /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FD961C23D1E45100931739 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52FD961E23D1E45100931739 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,12 +59,10 @@
 		52FD962A23D1E45300931739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		52FD963223D1E7DD00931739 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		52FD963423D1E90100931739 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		52FD963623D1FB6100931739 /* SearchMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMusicViewController.swift; sourceTree = "<group>"; };
 		52FD963923D1FE2400931739 /* TrackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackModel.swift; sourceTree = "<group>"; };
 		52FD963E23D208CE00931739 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		52FD964123D2266900931739 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		52FD964423D22DB400931739 /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
-		52FD964523D22DB400931739 /* SearchWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWorker.swift; sourceTree = "<group>"; };
 		52FD964623D22DB400931739 /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
 		52FD964723D22DB400931739 /* SearchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModels.swift; sourceTree = "<group>"; };
 		52FD964823D22DB400931739 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5287AA9523D36685008DCBC8 /* SDWebImage in Frameworks */,
+				52D1470723D79D3E001ADCAF /* URLImage in Frameworks */,
 				52FD963D23D2051600931739 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,6 +94,14 @@
 				5287AA9923D367A9008DCBC8 /* FeatureList.plist */,
 			);
 			path = FeatureFlags;
+			sourceTree = "<group>";
+		};
+		52D1470023D7718E001ADCAF /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				52D1470123D771A6001ADCAF /* Library.swift */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 		52FD961023D1E45100931739 = {
@@ -113,7 +127,7 @@
 				52FD963823D1FE1A00931739 /* Models */,
 				52FD963123D1E7CD00931739 /* MainTabBar */,
 				52FD963023D1E7BB00931739 /* Environment */,
-				52FD963623D1FB6100931739 /* SearchMusicViewController.swift */,
+				52D1470023D7718E001ADCAF /* Library */,
 				52FD964323D22D9E00931739 /* Search */,
 				52FD965223D2387300931739 /* Helpers */,
 			);
@@ -143,8 +157,10 @@
 		52FD963823D1FE1A00931739 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				52FD963923D1FE2400931739 /* TrackModel.swift */,
 				52FD963E23D208CE00931739 /* SearchResponse.swift */,
+				525E8D5923D8D5770039212F /* SearchViewStoredModel.swift */,
+				525E8D5723D8D55B0039212F /* StoredCell.swift */,
+				52FD963923D1FE2400931739 /* TrackModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -166,7 +182,6 @@
 				52FD964423D22DB400931739 /* SearchPresenter.swift */,
 				52FD964923D22DB400931739 /* SearchInteractor.swift */,
 				52FD964723D22DB400931739 /* SearchModels.swift */,
-				52FD964523D22DB400931739 /* SearchWorker.swift */,
 				52FD964623D22DB400931739 /* SearchRouter.swift */,
 				52FD965523D250B200931739 /* Common */,
 			);
@@ -179,6 +194,7 @@
 				52FD965323D2388900931739 /* UIViewController + Storyboard.swift */,
 				5287AAA123D4B188008DCBC8 /* CMTime + Extension.swift */,
 				5287AAA323D4C578008DCBC8 /* Nib.swift */,
+				52D1470323D795B6001ADCAF /* UserDefaults.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -214,6 +230,7 @@
 			packageProductDependencies = (
 				52FD963C23D2051600931739 /* Alamofire */,
 				5287AA9423D36685008DCBC8 /* SDWebImage */,
+				52D1470623D79D3E001ADCAF /* URLImage */,
 			);
 			productName = MusicApp;
 			productReference = 52FD961923D1E45100931739 /* MusicApp.app */;
@@ -246,6 +263,7 @@
 			packageReferences = (
 				52FD963B23D2051600931739 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				5287AA9323D36685008DCBC8 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				52D1470523D79D3E001ADCAF /* XCRemoteSwiftPackageReference "url-image" */,
 			);
 			productRefGroup = 52FD961A23D1E45100931739 /* Products */;
 			projectDirPath = "";
@@ -285,12 +303,14 @@
 				52FD963F23D208CE00931739 /* SearchResponse.swift in Sources */,
 				5287AA9823D3679E008DCBC8 /* FeatureList.swift in Sources */,
 				52FD964F23D22DB400931739 /* SearchInteractor.swift in Sources */,
+				52D1470223D771A6001ADCAF /* Library.swift in Sources */,
+				525E8D5A23D8D5770039212F /* SearchViewStoredModel.swift in Sources */,
+				525E8D5823D8D55B0039212F /* StoredCell.swift in Sources */,
 				52FD965723D250C700931739 /* TrackCell.swift in Sources */,
 				5287AAA223D4B188008DCBC8 /* CMTime + Extension.swift in Sources */,
-				52FD963723D1FB6100931739 /* SearchMusicViewController.swift in Sources */,
 				5287AAA023D38165008DCBC8 /* TrackDetailView.swift in Sources */,
 				52FD963A23D1FE2400931739 /* TrackModel.swift in Sources */,
-				52FD964B23D22DB400931739 /* SearchWorker.swift in Sources */,
+				52D1470423D795B6001ADCAF /* UserDefaults.swift in Sources */,
 				52FD964E23D22DB400931739 /* SearchViewController.swift in Sources */,
 				52FD964C23D22DB400931739 /* SearchRouter.swift in Sources */,
 				52FD964D23D22DB400931739 /* SearchModels.swift in Sources */,
@@ -485,6 +505,14 @@
 				minimumVersion = 5.5.1;
 			};
 		};
+		52D1470523D79D3E001ADCAF /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.9;
+			};
+		};
 		52FD963B23D2051600931739 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -500,6 +528,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5287AA9323D36685008DCBC8 /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImage;
+		};
+		52D1470623D79D3E001ADCAF /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52D1470523D79D3E001ADCAF /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
 		};
 		52FD963C23D2051600931739 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;

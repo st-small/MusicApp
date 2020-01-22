@@ -6,6 +6,7 @@
 //  Copyright (c) 2020 Stanly Shiyanovskiy. All rights reserved.
 //
 
+import SwiftUI
 import UIKit
 
 public enum Search {
@@ -34,4 +35,14 @@ public struct SearchViewModel {
     }
     
     public let cells: [Cell]
+}
+
+extension SearchViewModel.Cell {
+    public init(model: StoredCell) {
+        iconUrlString = model.iconUrlString
+        trackName = model.trackName
+        collectionName = model.collectionName
+        artistName = model.artistName
+        previewUrl = model.previewUrl
+    }
 }

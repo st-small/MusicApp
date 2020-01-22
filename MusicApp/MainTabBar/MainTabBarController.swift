@@ -6,6 +6,7 @@
 //  Copyright © 2020 Stanly Shiyanovskiy. All rights reserved.
 //
 
+import SwiftUI
 import UIKit
 
 public protocol MainTabBarControllerDelegate: class {
@@ -16,7 +17,7 @@ public protocol MainTabBarControllerDelegate: class {
 public class MainTabBarController: UITabBarController {
     
     private let searchView: SearchViewController = SearchViewController.loadFromStoryboard()
-    private let trackDetailView: TrackDetailView = TrackDetailView.loadFromNib()
+    public let trackDetailView: TrackDetailView = TrackDetailView.loadFromNib()
     
     private var minimizedTopAnchorConstraint: NSLayoutConstraint!
     private var maximizedTopAnchorConstraint: NSLayoutConstraint!
@@ -30,10 +31,13 @@ public class MainTabBarController: UITabBarController {
         let searchVC = generateViewController(rootViewController: searchView, image: UIImage(systemName: "magnifyingglass"), title: "Search")
         searchView.tabBarDelegate = self
         
-        let libraryVC = generateViewController(rootViewController: UIViewController(), image: UIImage(systemName: "music.note"), title: "Library")
+        var library = Library()
+        library.tabBarDelegate = self
+        let libraryVC = UIHostingController(rootView: library)
+        libraryVC.tabBarItem.image = UIImage(systemName: "music.note")
+        libraryVC.tabBarItem.title = "Library"
         
-        viewControllers = [searchVC,
-                           libraryVC]
+        viewControllers = [libraryVC, searchVC]
         
         tabBar.tintColor = #colorLiteral(red: 1, green: 0, blue: 0.3764705882, alpha: 1)
     }
@@ -90,8 +94,8 @@ extension MainTabBarController: MainTabBarControllerDelegate {
     
     public func maximizeTrackDetailController(viewModel: SearchViewModel.Cell?) {
         
-        maximizedTopAnchorConstraint.isActive = true
         minimizedTopAnchorConstraint.isActive = false
+        maximizedTopAnchorConstraint.isActive = true
         
         maximizedTopAnchorConstraint.constant = 0
         bottomAnchorConstraint.constant = 0

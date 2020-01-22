@@ -12,15 +12,12 @@ public protocol SearchBusinessLogic {
     func makeRequest(request: Search.Model.Request)
 }
 
-public protocol SearchDataStore {
-    //var name: String { get set }
-}
+public protocol SearchDataStore { }
 
 public class SearchInteractor: SearchBusinessLogic, SearchDataStore {
     
     // MARK: - Services
     public var presenter: SearchPresentationLogic?
-    var worker: SearchWorker?
     private var networkService = NetworkService()
     
     // MARK: - Main logic
